@@ -60,7 +60,9 @@
   "repository": "robturtle/ts-demo",
   "license": "MIT",
   "maintainers": [],
-  "contributors": [],
+  "contributors": [
+    "Yang Liu <yl3710@nyu.edu> (http://medium.com/@yl3710)"
+  ],
   "bugs": {
     "url": "https://github.com/robturtle/ts-demo/issues"
   }

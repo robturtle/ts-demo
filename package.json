@@ -15,7 +15,6 @@
     "coveralls": "^3.0.7",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-json": "^2.0.1",
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^3.0.9",
     "jest": "^24.9.0",
@@ -30,15 +29,19 @@
     "npm": ">= 4.0.0"
   },
   "lint-staged": {
-    "*.ts": [
-      "eslint --fix",
-      "git add"
-    ],
     "*.js": [
       "eslint --fix",
       "git add"
     ],
+    "*.ts": [
+      "eslint --fix",
+      "git add"
+    ],
     "*.json": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.md": [
       "prettier --write",
       "git add"
     ]

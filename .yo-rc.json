@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Yang Liu",
+      "authorEmail": "jeremyrobturtle@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}

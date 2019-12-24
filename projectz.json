@@ -1,0 +1,10 @@
+{
+  "title": "Yang's TypeScript project scaffold",
+  "name": "@robturtle/ts-demo",
+  "description": "Yang's TypeScript project scaffold",
+  "license": "MIT",
+  "author": "2019+ Yang Liu <yl3710@nyu.edu> (https://medium.com/@yl3710)",
+  "badges": {
+    "list": ["npmversion"]
+  }
+}

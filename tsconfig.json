@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "lib",
+    "outDir": "dist"
+  },
+  "exclude": ["node_modules", "**/__tests__", "**/*.test.ts", "**/*.spec.ts"]
+}

@@ -5,8 +5,7 @@
   "homepage": "",
   "author": {
     "name": "Yang Liu",
-    "email": "jeremyrobturtle@gmail.com",
-    "url": ""
+    "email": "jeremyrobturtle@gmail.com"
   },
   "files": [
     "lib"

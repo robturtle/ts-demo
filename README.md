@@ -4,16 +4,14 @@
 
 <!-- /TITLE -->
 
-
 <!-- BADGES/ -->
 
 <span class="badge-npmversion"><a href="https://npmjs.org/package/@robturtle/ts-demo" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@robturtle/ts-demo.svg" alt="NPM version" /></a></span>
-<span class="badge-travisci"><a href="http://travis-ci.org/robturtle/ts-demo" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/robturtle/ts-demo/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-travisci"><a href="http://travis-ci.com/robturtle/ts-demo" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/robturtle/ts-demo/master.svg" alt="Travis CI Build Status" /></a></span>
 <span class="badge-coveralls"><a href="https://coveralls.io/r/robturtle/ts-demo" title="View this project's coverage on Coveralls"><img src="https://img.shields.io/coveralls/robturtle/ts-demo.svg" alt="Coveralls Coverage Status" /></a></span>
 <span class="badge-daviddm"><a href="https://david-dm.org/robturtle/ts-demo" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/robturtle/ts-demo.svg" alt="Dependency Status" /></a></span>
 
 <!-- /BADGES -->
-
 
 <!-- DESCRIPTION/ -->
 
@@ -21,12 +19,12 @@ Yang's TypeScript project scaffold
 
 <!-- /DESCRIPTION -->
 
-
 <!-- INSTALL/ -->
 
 <h2>Install</h2>
 
 <a href="https://npmjs.com" title="npm is a package manager for javascript"><h3>npm</h3></a>
+
 <ul>
 <li>Install: <code>npm install --save @robturtle/ts-demo</code></li>
 <li>Import: <code>import * as pkg from ('@robturtle/ts-demo')</code></li>
@@ -34,7 +32,6 @@ Yang's TypeScript project scaffold
 </ul>
 
 <!-- /INSTALL -->
-
 
 ## Usage
 

@@ -1,79 +1,70 @@
 {
-  "name": "ts-demo",
-  "version": "0.0.0",
-  "description": "TypeScript project demo",
-  "homepage": "",
-  "author": {
-    "name": "Yang Liu",
-    "email": "jeremyrobturtle@gmail.com"
-  },
-  "files": [
-    "lib"
-  ],
-  "main": "lib/index.js",
-  "keywords": [
-    ""
-  ],
-  "devDependencies": {
-    "@types/jest": "^24.0.24",
-    "@typescript-eslint/eslint-plugin": "^2.13.0",
-    "@typescript-eslint/parser": "^2.13.0",
-    "coveralls": "^3.0.7",
-    "eslint": "^6.6.0",
-    "eslint-config-prettier": "^6.6.0",
-    "eslint-config-xo": "^0.27.2",
-    "eslint-config-xo-typescript": "^0.24.1",
-    "eslint-plugin-prettier": "^3.1.1",
-    "husky": "^3.0.9",
-    "jest": "^24.9.0",
-    "lint-staged": "^9.4.3",
-    "prettier": "^1.19.1",
-    "ts-jest": "^24.2.0",
-    "ts-node": "^8.5.4",
-    "typescript": "^3.7.4"
-  },
-  "engines": {
-    "npm": ">= 4.0.0"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "eslintConfig": {
-    "extends": [
-      "xo",
-      "xo-typescript",
-      "prettier"
-    ],
-    "env": {
-      "jest": true,
-      "node": true
-    },
-    "rules": {
-      "prettier/prettier": "error"
-    },
-    "plugins": [
-      "prettier"
-    ]
-  },
-  "scripts": {
-    "pretest": "eslint .",
-    "test": "jest"
-  },
-  "repository": "robturtle/ts-demo",
-  "jest": {
-    "testEnvironment": "node"
-  },
-  "license": "MIT"
+	"name": "ts-demo",
+	"version": "0.0.0",
+	"description": "TypeScript project demo",
+	"homepage": "",
+	"author": {
+		"name": "Yang Liu",
+		"email": "jeremyrobturtle@gmail.com"
+	},
+	"files": [
+		"lib"
+	],
+	"main": "lib/index.js",
+	"keywords": [
+		""
+	],
+	"devDependencies": {
+		"@types/jest": "^24.0.24",
+		"@typescript-eslint/eslint-plugin": "^2.13.0",
+		"@typescript-eslint/parser": "^2.13.0",
+		"coveralls": "^3.0.7",
+		"eslint": "^6.6.0",
+		"eslint-config-xo": "^0.27.2",
+		"eslint-config-xo-typescript": "^0.24.1",
+		"husky": "^3.0.9",
+		"jest": "^24.9.0",
+		"lint-staged": "^9.4.3",
+		"prettier": "^1.19.1",
+		"ts-jest": "^24.2.0",
+		"ts-node": "^8.5.4",
+		"typescript": "^3.7.4"
+	},
+	"engines": {
+		"npm": ">= 4.0.0"
+	},
+	"lint-staged": {
+		"*.js": [
+			"eslint --fix",
+			"git add"
+		],
+		"*.json": [
+			"prettier --write",
+			"git add"
+		]
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"eslintConfig": {
+		"extends": [
+			"xo",
+			"xo-typescript"
+		],
+		"env": {
+			"jest": true,
+			"node": true
+		}
+	},
+	"scripts": {
+		"pretest": "eslint --fix . && eslint --fix lib/**/*.ts",
+		"test": "jest"
+	},
+	"repository": "robturtle/ts-demo",
+	"jest": {
+		"testEnvironment": "node"
+	},
+	"license": "MIT"
 }

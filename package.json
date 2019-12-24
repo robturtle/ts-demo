@@ -56,6 +56,11 @@
       "pre-commit": "lint-staged"
     }
   },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 100
+  },
   "eslintConfig": {
     "extends": [
       "xo",

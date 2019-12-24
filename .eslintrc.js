@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ['prettier', 'plugin:@typescript-eslint/recommended'],
+  env: {
+    jest: true,
+    node: true,
+  },
+  extends: ['prettier', 'airbnb', 'plugin:@typescript-eslint/recommended'],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'prettier'],
   settings: {

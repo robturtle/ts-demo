@@ -65,18 +65,9 @@
     "trailingComma": "all",
     "printWidth": 100
   },
-  "eslintConfig": {
-    "extends": [
-      "xo",
-      "xo-typescript"
-    ],
-    "env": {
-      "jest": true,
-      "node": true
-    }
-  },
+  "eslintConfig": {},
   "scripts": {
-    "pretest": "eslint .",
+    "pretest": "eslint --ext .js,.ts .",
     "test": "jest"
   },
   "repository": "robturtle/ts-demo",

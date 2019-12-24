@@ -1,12 +1,9 @@
 {
   "name": "@robturtle/ts-demo",
   "version": "0.0.0",
-  "description": "TypeScript project demo",
+  "description": "Yang's TypeScript project scaffold",
   "homepage": "",
-  "author": {
-    "name": "Yang Liu",
-    "email": "jeremyrobturtle@gmail.com"
-  },
+  "author": "2019+ Yang Liu <yl3710@nyu.edu> (http://medium.com/@yl3710)",
   "main": "index.js",
   "keywords": [
     ""
@@ -61,5 +58,10 @@
     "test": "jest"
   },
   "repository": "robturtle/ts-demo",
-  "license": "MIT"
+  "license": "MIT",
+  "maintainers": [],
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/robturtle/ts-demo/issues"
+  }
 }
